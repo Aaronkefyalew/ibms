@@ -19,3 +19,19 @@ const AdminPage = () => {
           - Includes a logout button on the right
           - Has a subtle border at the bottom
          ========================== */}
+      <header className="flex justify-between items-center w-full px-8 py-4 border-b border-gray-700">
+        <h1 className="text-2xl font-bold tracking-wide">⚡ Admin Dashboard</h1>
+        
+        {/* Logout button with red theme (shadcn/ui Button) */}
+        <Button variant="destructive" className="rounded-xl">
+          Logout
+        </Button>
+      </header>
+
+      {/* ==========================
+          Main Content Area
+          - Uses flexbox to center items
+          - Provides padding around content
+          - Restricts width to 6xl for readability
+         ========================== */}
+
