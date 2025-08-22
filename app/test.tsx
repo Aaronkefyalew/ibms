@@ -67,36 +67,4 @@ const AdminPage = () => {
               <h2 className="text-lg font-semibold">👥 New Users</h2>
               <p className="text-gray-600">45 this week</p>
             </div>
-            <div className="p-6 bg-white rounded-lg shadow">
-              <h2 className="text-lg font-semibold">💰 Revenue</h2>
-              <p className="text-gray-600">$3,420 this month</p>
-            </div>
-          </div>
-        )}
 
-        {active === "users" && (
-          <div className="p-6 bg-white rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-4">User Management</h2>
-            <p className="text-gray-600">Here you can add, edit, or remove users.</p>
-          </div>
-        )}
-
-        {active === "reports" && (
-          <div className="p-6 bg-white rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-4">Reports</h2>
-            <p className="text-gray-600">View system reports and analytics here.</p>
-          </div>
-        )}
-
-        {active === "settings" && (
-          <div className="p-6 bg-white rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-4">Settings</h2>
-            <p className="text-gray-600">Configure system preferences here.</p>
-          </div>
-        )}
-      </main>
-    </div>
-  )
-}
-
-export default AdminPage
